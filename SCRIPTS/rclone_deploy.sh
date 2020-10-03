@@ -1,7 +1,7 @@
 #!/bin/sh
 sudo -i
 apt update
-apt upgrade -y
+touch /tmp/keepalive
 curl https://rclone.org/install.sh | bash
 mkdir ~/.config
 mkdir ~/.config/rclone
