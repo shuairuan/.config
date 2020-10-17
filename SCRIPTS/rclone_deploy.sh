@@ -1,5 +1,5 @@
 #!/bin/sh
-sudo -i
+# sudo -i
 apt update
 touch /tmp/keepalive
 curl https://rclone.org/install.sh | bash
