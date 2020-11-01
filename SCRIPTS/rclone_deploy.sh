@@ -1,8 +1,8 @@
 #!/bin/sh
 # sudo -i
-apt update
+sudo apt update
 touch /tmp/keepalive
-curl https://rclone.org/install.sh | bash
+sudo curl https://rclone.org/install.sh | bash
 mkdir ~/.config
 mkdir ~/.config/rclone
 cd ~/.config/rclone
